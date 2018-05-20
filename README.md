@@ -1,6 +1,6 @@
 # Testability
 
-Implementation of diffenrent Testability Patterns in C#
+Implementation of different Testability Patterns in C#
 
 Todo:
 - [x] Subclass To Test
