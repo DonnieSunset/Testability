@@ -15,12 +15,12 @@ namespace SubclassToTest.Test
         /// <summary>
         /// Override to be able to set a specific time
         /// </summary>
-        public new string GetCurrentTime()
+        public override DateTime GetCurrentTime()
         {
-            DateTime myTime = new DateTime(1990, 10, 10, 0, 0, 0, 0);
+            DateTime myTime = new DateTime(1990, 10, 10, 12, 0, 0, 0);
             myTime.AddHours(this.Hours);
             myTime.AddMinutes(this.Minutes);
-            return myTime.ToString();
+            return myTime;
         }
 
         /// <summary>
@@ -53,7 +53,7 @@ namespace SubclassToTest.Test
 
             // act
             String actualTimeString =
-                  theTimeDisplay.GetCurrentTime();
+                  theTimeDisplay.DisplayCurrentTime();
 
             // assert
             Assert.AreEqual("Midnight", actualTimeString);
