@@ -11,6 +11,10 @@ namespace SubclassToTest.Test
         /// <summary>
         /// Override to be able to set a specific time
         /// </summary>
+        /// <remarks>
+        /// If this method would be static in the base class, we would not be able to override it! 
+        /// Thats one reason why static is evil for testing.
+        /// </remarks>
         public override DateTime GetCurrentTime()
         {
             DateTime myTime = new DateTime(1990, 10, 10, 12, 0, 0, 0);
