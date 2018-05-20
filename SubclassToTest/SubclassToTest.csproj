@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Test\TimeDisplayTestStubSubclass.cs" />
     <Compile Include="TimeDisplay.cs" />
-    <Compile Include="TimeProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

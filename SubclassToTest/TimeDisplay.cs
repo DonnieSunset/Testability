@@ -6,7 +6,7 @@ namespace SubclassToTest
     {
         public virtual DateTime GetCurrentTime()
         {
-            return TimeProvider.Instance.GetTime();
+            return DateTime.Now;
         }
 
         public string DisplayCurrentTime()
