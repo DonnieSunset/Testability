@@ -17,7 +17,7 @@ Override method(s) that need to be faked/mocked/stubbed, for testing purposes.
 * Reuse of test code is difficult.
 * Refactoring of production code becomes more and more difficult.
 
-**What does a developer has to do in order to ensure the realization of this pattern:**
+**Design for testability:**
 * Provide critical methods as virtual
 
 
