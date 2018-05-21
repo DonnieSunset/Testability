@@ -23,11 +23,15 @@ namespace HumbleObject.Before.Source
                 {
                     Thread.Sleep(1000);
 
+                    #region Here is the logic we want to test
+
                     var msg = _messageProvider.GetNextMessage();
 
                     //Do stuff with message
 
                     LastMessage = msg;
+
+                    #endregion
                 }
             });
 
