@@ -58,6 +58,10 @@
     <Compile Include="Before\Source\Server.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Before\Test\MessageProviderTests.cs" />
+    <Compile Include="WithHumble\Source\IMessageProvider.cs" />
+    <Compile Include="WithHumble\Source\MessageHandler.cs" />
+    <Compile Include="WithHumble\Source\Server.cs" />
+    <Compile Include="WithHumble\Test\MessageProviderTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Docu\HumbleObject.md" />
@@ -67,5 +71,6 @@
     <Content Include="Docu\Dependency1.png" />
     <Content Include="Docu\Dependency2.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

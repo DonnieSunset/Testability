@@ -3,7 +3,7 @@ using System.Threading;
 using Moq;
 using HumbleObject.Before.Source;
 
-namespace HumbleObject.Berfore.Test
+namespace HumbleObject.Before.Test
 {
     [TestClass]
     public class MessageProviderTests
