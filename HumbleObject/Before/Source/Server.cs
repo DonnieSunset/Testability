@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Threading;
 
-namespace HumbleObject
+namespace HumbleObject.Before.Source
 {
     public class Server
     {
