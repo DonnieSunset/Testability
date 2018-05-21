@@ -12,7 +12,7 @@ namespace HumbleObject.Berfore.Test
         /// We cannot test here without synchronizing with Thread.Sleep()
         /// </summary>
         [TestMethod]
-        public void ArrivingmMethodPublishedTest()
+        public void Before_ArrivingMethodPublished_Test()
         {
             var fakeMessageProvider = new Mock<IMessageProvider>();
             fakeMessageProvider.Setup(foo => foo.GetNextMessage()).Returns("Hello");
