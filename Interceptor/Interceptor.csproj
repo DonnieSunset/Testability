@@ -41,16 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CachedProductService.cs" />
-    <Compile Include="Helper\CacheItemPolicy.cs" />
-    <Compile Include="DefaultProductService.cs" />
-    <Compile Include="ICacheStorage.cs" />
-    <Compile Include="IProductService.cs" />
-    <Compile Include="Helper\Product.cs" />
-    <Compile Include="Helper\ObjectCache.cs" />
-    <Compile Include="Helper\MemoryCache.cs" />
+    <Compile Include="Source\DefaultProductService.cs" />
+    <Compile Include="Test\LoggingProductService.cs" />
+    <Compile Include="Source\IProductService.cs" />
+    <Compile Include="Source\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SystemRuntimeCacheStorage.cs" />
+    <Compile Include="Test\ProductServiceTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Docu\Interceptor.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,4 @@
-﻿using Interceptor.Helper;
-
-namespace Interceptor
+﻿namespace Interceptor.Source
 {
     public interface IProductService
     {
