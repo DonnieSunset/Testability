@@ -10,3 +10,4 @@ Todo:
 - [x] Subclass To Test
 - [x] Humble Object
 - [ ] Dependency Injection
+- [ ] Interceptor
