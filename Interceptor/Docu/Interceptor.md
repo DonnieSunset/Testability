@@ -4,5 +4,5 @@ Interceptor is a design pattern to extend a framework or component without modif
 
 **Description:**
 
-Design for testability:
-use DI
+Design for Testability:
+use Dependency Injection
