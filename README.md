@@ -9,5 +9,7 @@ Implementation of different Testability Patterns in C#
 Todo:
 - [x] Subclass To Test
 - [x] Humble Object
-- [ ] Dependency Injection
-- [ ] Interceptor
+- [x] Dependency Injection
+- [ ] Dependency Lookup
+- [x] Interceptor
+- [ ] Test Hook
